@@ -6,6 +6,10 @@ Build with [webpack](https://webpack.github.io/) and [CSS Modules](https://githu
 
 [Story book](https://rc-component.github.io/progress/)
 
+## Install
+
+    npm install rc-nprogress -S
+
 ## Usage
 
 ```
