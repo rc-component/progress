@@ -1,12 +1,16 @@
 {
   "name": "rc-nprogress",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "nprogress component for react",
   "repository": {
     "type": "git",
     "url": "https://github.com/rc-component/progress.git"
   },
-  "keywords": ["progress", "react", "react-progress"],
+  "keywords": [
+    "progress",
+    "react",
+    "react-progress"
+  ],
   "license": "MIT",
   "scripts": {
     "prepublish": ". ./.scripts/prepublish.sh",
