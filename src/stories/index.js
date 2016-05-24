@@ -32,7 +32,7 @@ storiesOf('Progress', module)
             <button onClick={this.setPercent.bind(this, 0.4)}>0.4</button>
             <button onClick={this.setPercent.bind(this, 0.8)}>0.8</button>
             <button onClick={this.setPercent.bind(this, 1)}>1</button>
-            <Progress inc={0.05} percent={this.state.percent}/>
+            <Progress color="#333" inc={0.05} percent={this.state.percent}/>
           </div>
         )
       }
