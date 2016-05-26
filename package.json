@@ -1,6 +1,6 @@
 {
   "name": "rc-nprogress",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "nprogress component for react",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   "keywords": [
     "progress",
     "react",
-    "react-progress"
+    "react-component"
   ],
   "license": "MIT",
   "scripts": {
