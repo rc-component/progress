@@ -52,6 +52,7 @@
     "react-dom": "^15.6.1"
   },
   "main": "dist/index.js",
+  "esnext": "src/index.js",
   "engines": {
     "npm": "^3.0.0"
   }
