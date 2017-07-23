@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react'
+import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 import style from './style.css'
 import assign from 'object-assign'
 import cx from 'classnames'
@@ -24,6 +25,9 @@ export default class Progress extends Component {
   }
   componentDidMount() {
     if (this.state.percent < 1) this.start()
+  }
+  componentWillUnmount() {
+    clearInterval(this.interval)
   }
   start() {
     clearInterval(this.interval)
